@@ -21,6 +21,7 @@
 
 .w50
 {
+    padding:0 2%;
     width:50%;
 }
 
@@ -56,6 +57,11 @@ header
 }
 
 .mobile
+{
+    display:none;
+}
+
+nav.botao-menu-mobile
 {
     display:none;
 }
@@ -136,10 +142,104 @@ nav.desktop li a
     width:100%;
     height:60px;
     font-size:22px;
-    background-color: rgb(10, 206, 206);
+    background-color: rgb(23, 165, 184);
     color:#ffffff;
     padding:8px;
     margin-top:8px;
     cursor:pointer;
-    border:none;
+    border:none; 
+}
+
+section.descricao-autor
+{
+    padding:30px 0;
+}
+
+section.descricao-autor h2
+{
+    color:#444;
+    font-size:30px;
+    font-weight:400;
+}
+
+section.descricao-autor p
+{
+    color:#444;
+    margin:10px 0;
+    text-align: justify;
+}
+
+section.descricao-autor img
+{
+    width:70%;
+    border-radius:4%;
+}
+
+@media (max-width:750px)
+{
+    section.descricao-autor img
+    {
+        display:block;
+        float:none !important;
+        max-width:350px;
+        margin:32px auto;
+    }
+    .w50
+    {
+        width:100%;
+    }
+
+    nav.desktop
+    {
+        display:none;
+    }
+
+    .botao-menu-mobile
+    {
+        color:white;
+        font-size:32px;
+        cursor:pointer;
+    }
+
+    nav.mobile
+    {
+        display:block;
+    }
+
+    nav.mobile ul
+    {
+        width:100%;
+        position:absolute;
+        display:block;
+        left:0;
+        top:80px;
+        z-index:3;
+        list-style-type: none;
+    }
+
+    nav.mobile ul li
+    {
+        padding:14px;
+        width:100%;
+        background-color: rgb(226, 224, 224);
+        border-bottom: 1px solid #444;
+    }
+
+    nav.mobile ul li a
+    {
+        display: block;
+        color:#444444;
+        text-decoration:none;
+        cursor:pointer;
+    }
+
+
+}
+
+@media (max-width:700px)
+{
+    .w33
+    {
+        width:100%;
+    }
 }

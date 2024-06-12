@@ -21,6 +21,9 @@
                 </ul>
             </nav>
             <nav class="mobile right">
+                <div class="botao-menu-mobile">
+                    <i class="fa fa-bars" arial-hiden="true"></i>
+                </div>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Sobre</a></li>
@@ -37,14 +40,14 @@
         <div class="center form">
             <h2>Qual o seu melhor email?</h2>
             <form  action="">
-                <input type="email" name="email" required>
+                <input type="email" name="email" placeholder="E-mail" required>
                 <input type="submit" name="ação" value="cadastrar">
             </form> 
         </div>
         
     </section><!--banner-principal-->
  
-    <section class="descricao-autor">
+    <section class="center descricao-autor">
         <div class="w50 left">
             <h2>Alexsandro Silva</h2>
 
@@ -56,7 +59,7 @@
         </div>
 
         <div class="w50 left">
-            <img src="./images/Alex.jpg" alt="">
+            <img class="right"  src="./images/Alex.jpg" alt="">
         </div>
         <div class="clear"></div>
     </section><!--descricao-autor-->
@@ -66,8 +69,8 @@
         <div class="center">
             <h2 calss="title">Especialidade</h2>
             <div class="box-especialidades w33 left">
-                <h3>icone</h3>
                 <h3><i class="fa fa-css3" aria-hidden="true"></i></h3>
+                <h3>CSS3</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fuga nam distinctio ex dolorem impedit officia culpa ut. Est veritatis maxime animi odit labore velit doloribus ipsum ullam molestiae veniam!</p>
             </div>
             <div class="box-especialidades w33 left">
