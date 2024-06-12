@@ -33,9 +33,10 @@
     </header><!--header-->
 
     <section class="banner-principal">
-        <div class="center">
+        <div class="overlap"></div>
+        <div class="center form">
             <h2>Qual o seu melhor email?</h2>
-            <form action="">
+            <form  action="">
                 <input type="email" name="email" required>
                 <input type="submit" name="ação" value="cadastrar">
             </form> 
