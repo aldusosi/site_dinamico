@@ -216,6 +216,57 @@ section.especialidades p
     text-align: center;
 }
 
+section.extras
+{
+    padding-top:20px;
+    padding-bottom:80px;
+    background-color:#3d437a;
+    font-weight: 200;
+}
+
+.depoimentos, .servicos
+{
+    color:white;
+    font-weight: 200;
+}
+
+.depoimentos h2, .servicos h2
+{
+    margin-bottom:30px;
+    color:white;
+    font-weight: 200;
+    font-weight: 200;
+}
+
+section.extras .depoimentos p
+{
+    font-size:14px;
+    margin-top:14px;
+}
+
+section.extras .servicos li
+{
+    font-size:14px;
+    margin-top:14px;
+}
+
+.depoimento-single
+{
+    border-bottom:1px solid #999;
+    padding-bottom:8px;
+}
+
+footer
+{
+    background-color:#232649;
+}
+footer p
+{
+    text-align:center;
+    padding:14px 0;
+    color:white;
+}
+
 @media (max-width:750px)
 {
     section.descricao-autor img

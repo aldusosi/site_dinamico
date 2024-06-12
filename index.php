@@ -89,7 +89,7 @@
 
     <section class="extras">
         <div class="center">
-            <div class="w50 left">
+            <div class="w50 left depoimentos">
                 <h2 calss="title">Depoimentos dos nossos clientes</h2>
                 <div class="depoimento-single">
                     <p class="depoimento-descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores eligendi debitis magni? Laudantium aspernatur doloribus non dolores! Dolore, animi qui quidem obcaecati cum vitae odit totam eaque perferendis consequuntur quos.</p>
@@ -100,9 +100,9 @@
                     <p class="nome-autor">nome</p>
                 </div>
             </div>
-            <div class="w50 left">
+            <div class="w50 left servicos">
                 <h2 class="title">Serviços</h2>
-                <div class="servicos">
+                <div>
                     <ul>
                         <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem cumque dolor, reiciendis repellendus sapiente laboriosam quasi ad necessitatibus voluptas, reprehenderit iure. Unde sit maiores rerum, dicta soluta quos facilis earum.
                         </li>
