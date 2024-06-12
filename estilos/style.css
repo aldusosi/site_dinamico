@@ -165,14 +165,55 @@ section.descricao-autor h2
 section.descricao-autor p
 {
     color:#444;
-    margin:10px 0;
+    margin-top:10px;
     text-align: justify;
 }
 
 section.descricao-autor img
 {
-    width:70%;
-    border-radius:4%;
+    width:50%;
+    border-radius:0%;
+}
+
+section.especialidades
+{
+    padding:30px 0;
+    background-color:#cccaca;
+}
+
+section.especialidades h2
+{
+    color:#888;
+    text-align: center;
+    font-weight:400px;
+}
+
+section.especialidades .box-especialidades
+{
+    padding:18px;
+}
+
+section.especialidades .box-especialidades h3
+{
+    color:#6a3fbb;
+    margin-top:20px;
+    font-size:32px;
+    text-align: center;
+}
+
+section.especialidades .box-especialidades h4
+{
+    color:#999;
+    margin:8px 0;
+    font-size:24px;
+    text-align: center;
+}
+
+section.especialidades p
+{
+    color:#333;
+    font-size:16px;
+    text-align: center;
 }
 
 @media (max-width:750px)
@@ -222,17 +263,16 @@ section.descricao-autor img
         padding:14px;
         width:100%;
         background-color: rgb(226, 224, 224);
-        border-bottom: 1px solid #444;
+        border-bottom: 1px solid #aaaaaa;
     }
 
     nav.mobile ul li a
     {
-        display: block;
+        display: ;
         color:#444444;
         text-decoration:none;
         cursor:pointer;
     }
-
 
 }
 

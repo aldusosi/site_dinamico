@@ -65,25 +65,26 @@
     </section><!--descricao-autor-->
     
 
-    <section calss="especialidades">
+    <section class="especialidades">
         <div class="center">
-            <h2 calss="title">Especialidade</h2>
+            <h2 calss="title">Especialidades</h2>
             <div class="box-especialidades w33 left">
                 <h3><i class="fa fa-css3" aria-hidden="true"></i></h3>
-                <h3>CSS3</h3>
+                <h4>CSS3</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fuga nam distinctio ex dolorem impedit officia culpa ut. Est veritatis maxime animi odit labore velit doloribus ipsum ullam molestiae veniam!</p>
             </div>
             <div class="box-especialidades w33 left">
                 <h3><i class="fa fa-html5" aria-hidden="true"></i></h3>
-                <h3>HTML5</h3>
+                <h4>HTML5</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fuga nam distinctio ex dolorem impedit officia culpa ut. Est veritatis maxime animi odit labore velit doloribus ipsum ullam molestiae veniam!</p>
             </div>
             <div class="box-especialidades w33 left">
                 <h3><i class="fa fa-codepen" aria-hidden="true"></i></h3>
-                <h3>Javascript</h3>
+                <h4>Javascript</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias fuga nam distinctio ex dolorem impedit officia culpa ut. Est veritatis maxime animi odit labore velit doloribus ipsum ullam molestiae veniam!</p>
             </div>
         </div>
+        <div class="clear"></div>
     </section><!--especialidades-->
 
     <section class="extras">
