@@ -302,7 +302,7 @@ footer p
     {
         width:100%;
         position:absolute;
-        display:block;
+        display:none;
         left:0;
         top:80px;
         z-index:3;
@@ -319,7 +319,7 @@ footer p
 
     nav.mobile ul li a
     {
-        display: ;
+        display:block;
         color:#444444;
         text-decoration:none;
         cursor:pointer;

@@ -125,5 +125,7 @@
         </div>
     </footer>
 
+    <script src="./js/jquery.js"></script>
+    <script src="./js/nav_mobile.js"></script>
 </body>
 </html>
