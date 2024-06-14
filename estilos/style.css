@@ -260,6 +260,12 @@ footer
 {
     background-color:#232649;
 }
+footer.fixed
+{
+    width:100%;
+    position: fixed;
+    bottom:0;
+}
 footer p
 {
     text-align:center;
