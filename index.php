@@ -42,12 +42,12 @@
 
         if(file_exists("pages/$url.php"))
         {
-            include("pages/$url.php");
+            require_once("pages/$url.php");
         }
         else
         {
             $page404 = true;
-            include("pages/404.php");
+            require_once("pages/404.php");
         }
         
 
