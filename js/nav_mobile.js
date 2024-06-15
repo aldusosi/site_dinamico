@@ -16,5 +16,6 @@ $(function(){
             icone.addClass('fa-bars');
             lista_menu.hide();
         }
-    })
+        
+    });
 })

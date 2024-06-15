@@ -19,11 +19,12 @@
 
         switch($url)
         {
-            case 'sobre':
-                echo '<target target="sobre">';
+            case 'depoimentos':
+                echo '<target target="depoimentos" />';
                 break;
             case 'servicos':
-                echo '<target target="servicos">';
+                echo '<target target="servicos" />';
+                break;
         }
     ?>
 
@@ -33,7 +34,7 @@
             <nav class="desktop right">
                 <ul>
                     <li><a href="<?php echo INCLUDE_PATH ?>">Home</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH ?>sobre">Sobre</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH ?>depoimentos">Depoimentos</a></li>
                     <li><a href="<?php echo INCLUDE_PATH ?>servicos">Serviços</a></li>
                     <li><a href="<?php echo INCLUDE_PATH ?>contato">Contato</a></li>
                 </ul>
@@ -44,7 +45,7 @@
                 </div>
                 <ul>
                     <li><a href="<?php echo INCLUDE_PATH ?>">Home</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH ?>sobre">Sobre</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH ?>depoimentos">Depoimentos</a></li>
                     <li><a href="<?php echo INCLUDE_PATH ?>servicos">Serviços</a></li>
                     <li><a href="<?php echo INCLUDE_PATH ?>contato">Contato</a></li>
                 </ul>
@@ -58,18 +59,18 @@
 
         if(file_exists("pages/$url.php"))
         {
-            require_once("pages/$url.php");
+            include("pages/$url.php");
         }
         else
         {
-            if($url != 'sobre' && $url != 'servicos')
+            if($url != 'depoimentos' && $url != 'servicos')
             {
                 $page404 = true;
-                require_once("pages/404.php");
+                include("pages/404.php");
             }
             else
             {
-                require_once("pages/home.php");
+                include("pages/home.php");
             }
             
         }
@@ -83,7 +84,8 @@
         </div>
     </footer>
 
-    <script src="<?php echo INCLUDE_PATH ?>js/jquery.js"></script>
-    <script src="<?php echo INCLUDE_PATH ?>js/nav_mobile.js"></script>
+    <script src="<?php echo INCLUDE_PATH; ?>js/jquery.js"></script>
+    <script src="<?php echo INCLUDE_PATH; ?>js/nav_mobile.js"></script>
+    <script src="<?php echo INCLUDE_PATH; ?>js/scroll_auto.js"></script>
 </body>
 </html>
