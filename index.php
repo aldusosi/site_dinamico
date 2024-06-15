@@ -17,9 +17,9 @@
             <nav class="desktop right">
                 <ul>
                     <li><a href="<?php echo INCLUDE_PATH ?>">Home</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH ?>">Sobre</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH ?>">Serviços</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH ?>">Contato</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH ?>sobre">Sobre</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH ?>servicos">Serviços</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH ?>contato">Contato</a></li>
                 </ul>
             </nav>
             <nav class="mobile right">
@@ -28,9 +28,9 @@
                 </div>
                 <ul>
                     <li><a href="<?php echo INCLUDE_PATH ?>">Home</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH ?>">Sobre</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH ?>">Serviços</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH ?>">Contato</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH ?>sobre">Sobre</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH ?>servicos">Serviços</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH ?>contato">Contato</a></li>
                 </ul>
             </nav>
             <div class="clear"></div>
