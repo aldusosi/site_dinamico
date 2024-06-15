@@ -262,7 +262,8 @@ footer
 }
 footer.fixed
 {
-    width:100%;
+    width:100%
+    ;
     position: fixed;
     bottom:0;
 }
@@ -271,6 +272,32 @@ footer p
     text-align:center;
     padding:14px 0;
     color:white;
+}
+
+.contato-container
+{
+    margin:30px;
+}
+
+.contato-container form
+{
+    padding:14px;
+    width:50%;
+}
+
+.contato-container input, .contato-container textarea
+{
+    margin-bottom:8px;
+    padding:8px;
+    width:100%;
+}
+
+.contato-container input[type='submit']
+{
+    color:white;
+    padding:14px;
+    background-color: #3d437a;
+    border:none;
 }
 
 @media (max-width:750px)
@@ -329,6 +356,11 @@ footer p
         color:#444444;
         text-decoration:none;
         cursor:pointer;
+    }
+
+    .contato-container form
+    {
+        width:98%;
     }
 
 }

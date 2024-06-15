@@ -15,6 +15,8 @@
     <?php 
         $url = isset($_GET['url']) ? $_GET['url'] : 'home';
 
+        if($url == "contato") $contato = true;
+
         switch($url)
         {
             case 'sobre':
@@ -75,7 +77,7 @@
 
     ?>
 
-    <footer <?php if(isset($page404) && $page404 == true) echo 'class="fixed"'; ?>>
+    <footer <?php if((isset($page404) && $page404 == true) || (isset($contato) && $contato == true)) echo 'class="fixed"'; ?>>
         <div class="center">
             <p>Todos os direitos reservados.</p>
         </div>
