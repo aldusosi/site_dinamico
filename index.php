@@ -11,6 +11,20 @@
     <title>Site dinamico</title>
 </head>
 <body>
+
+    <?php 
+        $url = isset($_GET['url']) ? $_GET['url'] : 'home';
+
+        switch($url)
+        {
+            case 'sobre':
+                echo '<target target="sobre">';
+                break;
+            case 'servicos':
+                echo '<target target="servicos">';
+        }
+    ?>
+
     <header>
         <div class="center">
             <h1 class="logomarca left">Logomarca</h1>
@@ -38,7 +52,7 @@
     </header><!--header-->
 
     <?php 
-        $url = isset($_GET['url']) ? $_GET['url'] : 'home';
+        
 
         if(file_exists("pages/$url.php"))
         {
@@ -46,8 +60,16 @@
         }
         else
         {
-            $page404 = true;
-            require_once("pages/404.php");
+            if($url != 'sobre' && $url != 'servicos')
+            {
+                $page404 = true;
+                require_once("pages/404.php");
+            }
+            else
+            {
+                require_once("pages/home.php");
+            }
+            
         }
         
 
